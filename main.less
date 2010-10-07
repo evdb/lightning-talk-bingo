@@ -1,6 +1,8 @@
 @cells:  3;
-@width:  600px;
-@gutter: 1px;
+@width:  400px;
+@border-width: 2px;
+@border-color: #888;
+@cell-padding: 5px;
 
 * {
    padding: 0;
@@ -14,39 +16,34 @@ body {
 
 .page {
     
-    
     ul {
 
         margin:  0 auto;
         width:   @width;
         height:  @width;
-        padding: @gutter;
-        
-        background-color: #222;
 
+        border-top:  @border-width solid @border-color;
+        border-left: @border-width solid @border-color;
+        
         li {
             width:  @width / @cells;
             height: @width / @cells;            
 
             display: inline;
             float: left;
-
-/*            background-color: #666;*/
             
             div {
                 display:         table-cell;
-                border-collapse: collapse;
-                border-spacing: 0;
-                
-
-                margin: @gutter;
-                width:  @width / @cells - 2 * @gutter;
-                height: @width / @cells - 2 * @gutter;
-
-                background-color: #ddd;
 
                 text-align:     center;
                 vertical-align: middle;
+
+                border-bottom: @border-width solid @border-color;
+                border-right:  @border-width solid @border-color;                
+                padding:       @cell-padding;
+
+                width:  @width / @cells - @border-width - @cell-padding*2;
+                height: @width / @cells - @border-width - @cell-padding*2;
 
             }
 

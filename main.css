@@ -8,26 +8,25 @@ body {
 }
 .page ul {
   margin: 0 auto;
-  width: 600px;
-  height: 600px;
-  padding: 1px;
-  background-color: #222222;
+  width: 400px;
+  height: 400px;
+  border-top: 2px solid #888888;
+  border-left: 2px solid #888888;
 }
 .page ul li {
-  width: 200px;
-  height: 200px;
+  width: 133.333333333333px;
+  height: 133.333333333333px;
   display: inline;
   float: left;
 }
 .page ul li div {
   display: table-cell;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 1px;
-  width: 198px;
-  height: 198px;
-  background-color: #dddddd;
   text-align: center;
   vertical-align: middle;
+  border-bottom: 2px solid #888888;
+  border-right: 2px solid #888888;
+  padding: 5px;
+  width: 121.333333333333px;
+  height: 121.333333333333px;
 }
 .page-break { page-break-after: always; }
