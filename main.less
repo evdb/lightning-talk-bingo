@@ -1,0 +1,61 @@
+@cells:  3;
+@width:  600px;
+@gutter: 1px;
+
+* {
+   padding: 0;
+   margin:  0; 
+}
+
+body {
+    font-color: #222;
+    font-family: Georgia;
+}
+
+.page {
+    
+    
+    ul {
+
+        margin:  0 auto;
+        width:   @width;
+        height:  @width;
+        padding: @gutter;
+        
+        background-color: #222;
+
+        li {
+            width:  @width / @cells;
+            height: @width / @cells;            
+
+            display: inline;
+            float: left;
+
+/*            background-color: #666;*/
+            
+            div {
+                display:         table-cell;
+                border-collapse: collapse;
+                border-spacing: 0;
+                
+
+                margin: @gutter;
+                width:  @width / @cells - 2 * @gutter;
+                height: @width / @cells - 2 * @gutter;
+
+                background-color: #ddd;
+
+                text-align:     center;
+                vertical-align: middle;
+
+            }
+
+        }
+
+    }
+
+}
+
+.page-break {
+    page-break-after: always;    
+}

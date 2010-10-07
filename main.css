@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-color: #222222;
+  font-family: Georgia;
+}
+.page ul {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  padding: 1px;
+  background-color: #222222;
+}
+.page ul li {
+  width: 200px;
+  height: 200px;
+  display: inline;
+  float: left;
+}
+.page ul li div {
+  display: table-cell;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1px;
+  width: 198px;
+  height: 198px;
+  background-color: #dddddd;
+  text-align: center;
+  vertical-align: middle;
+}
+.page-break { page-break-after: always; }
