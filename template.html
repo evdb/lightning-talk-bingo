@@ -19,6 +19,14 @@
 
 <div class="page">
     
+    <h1>Lightening Talk Bingo!</h1>
+    
+    <div class="rules">
+        Watch the talks and look out for the events below. If you spot one cross
+        out the event. If you complete a row, column or diagonal you've won.
+        Shout 'BINGO!'.
+    </div>
+    
     <ul>
     [% FOREACH event IN random_events(9) %]
         <li><div>[% event %]</div></li>
@@ -26,6 +34,10 @@
     </ul>
     
     <br style="clear: both;">
+    
+    <div class="promotion">
+        ---Insert promotion here---
+    </div>
     
 </div>
 
