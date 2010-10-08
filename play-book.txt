@@ -1,0 +1,20 @@
+Lightening Talk Bingo
+
+At start of lightening talks cards are handed out
+
+Host explains what will happen
+
+  everyone needs a card
+  listen to the talks and cross out events as they happen
+  if you fill a row, column or diagonal shout out bingo
+  speaker gets to finish their talk
+  after the talk winner says the things they got
+  audience votes whether win is valid
+  prize is awarded
+  talks continue
+
+If no winner emerges during talks then a list of shuffled events is read out until someone wins.
+
+In the case of a draw the random events are used as a tie breaker.
+
+
