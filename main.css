@@ -17,20 +17,21 @@ body {
   color: #444444;
   margin-bottom: 1em;
 }
-.page ul {
+.page ul.rules li { list-style-type: none; }
+.page ul.bingo_grid {
   margin: 0 auto;
   width: 400px;
   height: 400px;
   border-top: 2px solid #888888;
   border-left: 2px solid #888888;
 }
-.page ul li {
+.page ul.bingo_grid li {
   width: 133.333333333333px;
   height: 133.333333333333px;
   display: inline;
   float: left;
 }
-.page ul li div {
+.page ul.bingo_grid li div {
   display: table-cell;
   vertical-align: middle;
   border-bottom: 2px solid #888888;

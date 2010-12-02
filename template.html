@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
     <head>
-        <title>Lightening Bingo!</title>
+        <title>lightning Bingo!</title>
         <script src="jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
         <link rel="stylesheet" href="main.css" type="text/css" charset="utf-8">
 
@@ -15,28 +15,36 @@
     <body>
 
 
-[% FOR [ 1 .. 20 ] %]
+[% FOR [ 1 .. 150 ] %]
 
 <div class="page">
     
-    <h1>Lightening Talk Bingo!</h1>
+    <br><br><br>
     
-    <div class="rules">
-        Watch the talks and look out for the events below. If you spot one cross
-        out the event. If you complete a row, column or diagonal you've won.
-        Shout 'BINGO!'.
-    </div>
+    <h1>Lightning Talk Bingo!</h1>
     
-    <ul>
+    <br><br><br>
+
+    <ul class="rules">
+        <li>Watch the talks and look out for the things below.</li>
+        <li>If you spot one cross it out.</li>
+        <li>If you cross out a row, column or diagonal you've won.</li>
+        <li>Shout 'BINGO!'.</li>
+    </ul>
+    
+    <br><br><br>
+
+    <ul class="bingo_grid">
     [% FOREACH event IN random_events(9) %]
         <li><div>[% event %]</div></li>
     [% END %]
     </ul>
     
     <br style="clear: both;">
+    <br><br><br>
     
     <div class="promotion">
-        ---Insert promotion here---
+        Printed by the lovely people at Foxtons.
     </div>
     
 </div>

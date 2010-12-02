@@ -15,12 +15,12 @@ picture of kitten
 speaker does a live demo
 speaker trips over cables
 speaker plays sound on laptop speakers
-wrong slide deck
+speaker has wrong slide deck
 laptop battery runs low/out
 computer needs a reboot
 "beer"
 "buffy"
-has to adjust screen resolution
+speaker has to adjust screen resolution
 speaker is called Dave
 speaker is a woman
 speaker is nasty about PHP
@@ -28,7 +28,7 @@ speaker is nasty about PHP
 speaker swears
 remote control fails to work
 uses laser pointer
-speaker is male but wearing a skirt
+speaker is wearing a skirt
 audience shouts out "Can't hear you"
 speaker apologises for being hung over
 "We're hiring"
@@ -44,4 +44,3 @@ venue has a power cut
 laptop/screen goes to sleep
 fire alarm
 skype starts ringing
-IM messages come in
